@@ -1,0 +1,11 @@
+application
+     app.py
+
+     web
+         index.html
+
+         css
+            main.css
+
+         js
+            main.js

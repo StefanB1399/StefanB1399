@@ -1,0 +1,259 @@
+
+body{
+    background: url("https://jooinn.com/images/abstract-background-290.jpg");
+    background-size: stretch;
+    height: 920px;
+}
+
+.header-box{
+    width: 1000px;
+    height: 280px;
+    position: relative;
+    margin: 5% auto;
+    background: #fff;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+
+.beschreibungsbild{
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+}
+.text-box{
+    top: -300px;
+    right: -150px;
+    overflow: visible;
+    width: 650px;
+    height: 100px;
+    position: relative;
+    margin: 3% auto;
+    background: #fff;
+    padding: 0%;
+    position: center;
+}
+.vorher{
+    font-size: 12px;
+    display: grid;
+
+}
+.date{
+    width: 120px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    margin-bottom: 15px;
+}
+.foot-box{
+    top: -210px;
+    width: 1000px;
+    height: 700px;
+    position: relative;
+    margin: 0% auto;
+    background: #fff;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.collapsible{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.link{
+    text-align: right !important;
+}
+.Inhalt{
+    padding: 0 10px;
+    overflow: hidden;
+    font-weight: 700;
+    text-align: left;
+    font-color: black;
+}
+.needed{
+    padding: 0 10px;
+    display: none;
+    overflow: hidden;
+    font-weight: 700;
+    text-align: left;
+    font-color: black;
+
+    transition: .5s;
+
+}
+
+.teil_button{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 750px;
+    height: 40px;
+}
+.teil_button:hover{
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: .5s;
+}
+.submit_button{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 750px;
+    height: 40px;
+}
+.submit_button:hover{
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.5s;
+}
+
+.name{
+
+    width: 150px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    margin-bottom: 15px;
+}
+
+.name .nametext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.name:hover .nametext {
+    visibility: visible;
+}
+.email{
+    width: 150px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    margin-bottom: 15px;
+}
+.adresse{
+    width: 140px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    margin-bottom: 15px;
+}
+.plz{
+    width: 140px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    margin-bottom: 15px;
+}
+.tel{
+    width: 130px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    margin-bottom: 15px;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.gutschein{
+    margin-top: 5px;
+    width: 100%;
+    height: 450px;
+    border-radius: 1%;
+    box-shadow: 0 0 4px 0 #7f7f7f3d;
+    text-align: center;
+    padding: 18px;
+    position: relative;
+
+}
+
+footer {
+    width:100%;
+    background-color:#263238;
+    height:170px;
+
+    }
+
+footer p {
+    font-size:13px;
+    color:#CCC;
+    padding-bottom:0px;
+    margin-bottom:8px;
+    }
+
+
+
+.bottom_border {
+    border-bottom:2px solid #323f45;
+    padding-bottom:15px;
+    }
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li {
+    display:inline;
+    }
+.foote_bottom_ul_amrc li a {
+    color:#999;
+    margin:0 15px;
+    }
+
+.social_footer_ul {
+    display:table;
+    margin:15px auto 0 auto;
+    list-style-type:none;
+    }
+.social_footer_ul li {
+    padding-left:20px;
+    padding-top:10px;
+    float:left;
+    }
+.social_footer_ul li a {
+    color:#CCC;
+    border:1px solid #CCC;
+    padding:8px;
+    border-radius:50%;
+    }
+.social_footer_ul li i {
+    width:20px;
+    height:20px;
+    text-align:center;
+    }
